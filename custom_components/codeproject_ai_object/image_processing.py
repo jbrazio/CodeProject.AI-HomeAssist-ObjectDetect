@@ -17,7 +17,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, UnidentifiedImageError
 import voluptuous as vol
 
-import codeprojectai.core as cpai
+import .sdk as cpai
 
 import homeassistant.helpers.config_validation as cv
 import homeassistant.util.dt as dt_util
