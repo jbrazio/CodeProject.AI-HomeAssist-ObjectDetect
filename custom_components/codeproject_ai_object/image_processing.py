@@ -17,7 +17,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, UnidentifiedImageError
 import voluptuous as vol
 
-from . import https_sdk as cpai
+from . import sdk as cpai
 
 import homeassistant.helpers.config_validation as cv
 import homeassistant.util.dt as dt_util
